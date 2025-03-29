@@ -1,0 +1,331 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a.navbar-brand{
+    font-size: 32px;
+    font-weight: bold;
+    font-family:"Noto Sans", sans-serif;
+    color: #fe7c01;
+}
+
+a.navbar-brand:hover{
+    transform: scale(1.05);
+    transition: ease-in 300ms;
+    color: #844102;
+}
+
+ul.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+    gap: 20px;
+    font-weight: 600;
+}
+
+a.nav-link{
+    color: #fe7c01;
+    text-decoration: none;
+}
+
+a.nav-link:hover{
+    transform: scale(1.05);
+    transition: ease-in 300ms;
+    color: #844102;
+    
+    
+}
+
+.img-bienvenida{
+
+    display:flex;
+    justify-content: center;
+
+
+}
+
+.foto-propia{
+    width: 100%;
+
+}
+.t-principal{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fe7c01;
+}
+
+.texto-bienvenidad-tipo{
+    text-align: center;
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 700;
+    padding-top: 40px;
+
+
+
+
+}
+
+#acerca-de-mí{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px 20px ;
+    background-color: #fe7c01;
+
+}
+
+.container-cards{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card.mb-3{
+
+    background-color: #f0f0f0;
+    padding: 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.239);
+
+
+}
+
+
+.img-fluid.rounded{
+
+    border: #fe7c01 6px solid;
+
+
+}
+
+
+
+h5.card-title{
+
+    color:#fe7c01;
+    font-family:"Noto Sans", sans-serif ;
+    font-weight: bold;
+    text-align: left;
+    font-size: 28px;
+
+}
+p.card-text{
+
+    color: #00225d;
+    font-weight: normal;
+    font-family:"Noto Sans", sans-serif ;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 100%;
+    font-weight: 500;
+
+}
+
+div.container.text-center{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.Subtítulo01{
+
+    font-size:32px;
+    font-weight: 800;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:32px;
+    font-family:"Noto Sans", sans-serif ;
+    font-weight: bold;
+    color:#fe7c01;
+    margin-bottom: 40px;
+
+}
+#Proyectos{
+
+    padding: 60px;
+
+}
+
+div.card{
+
+    border: 3.5px solid #fe7c01;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    height: fit-content;
+}
+
+
+div.col{
+    padding: 20px;
+}
+
+a.btn.btn-primary{
+
+    background-color:#fe7c01;
+    border: none;
+    color: #ffffff;
+    font-family:"Noto Sans", sans-serif ;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+
+}
+
+a.btn.btn-primary:hover{
+    background-color: #844102;
+    transform: scale(1.05);
+    transition: ease-in 300ms;
+
+
+}
+
+#Contacto{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.Subtítulo02{
+
+     font-size:32px;
+     font-weight: 800;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size:32px;
+     font-family:"Noto Sans", sans-serif ;
+     font-weight: bold;
+     color:#fe7c01;
+     margin-bottom: 40px;
+     
+
+}
+
+.contenedor-contacto{
+
+    width:60%;
+    height: fit-content;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+div.mb-3{
+    width: 100%;
+    height: fit-content;
+    margin-top: 10px;
+    font-family:"Noto Sans", sans-serif ;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fe7c01;
+
+
+
+}
+
+input#exampleFormControlInput1.form-control{
+    border: 2px solid #fe7c01;
+    height: 45px;
+
+
+}
+
+textarea#exampleFormControlTextarea1.form-control{
+
+    border: 2px solid #fe7c01;
+
+
+
+
+}
+
+footer{
+    background-color: #fe7c01;
+    width: 100%;
+    height: fit-content;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+
+
+}
+
+.container-footer-logo{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    
+
+
+}
+
+
+.footer-logo{
+    font-size: 32px;
+    font-weight: bold;
+    font-family:"Noto Sans", sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+.Texto-contacto{
+    font-size: 16px;
+    font-weight:600;
+    font-family:"Noto Sans", sans-serif;
+    color: #ffffff;
+    margin-top: 5px;
+
+}
+
+.Container-iconos{
+width: 100%;
+display: flex;
+justify-content:center ;
+align-items: center;
+gap: 15px;
+}
+
+.icon1:hover,.icon2:hover,.icon3:hover,.icon4:hover{
+
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease-in 150ms;
+    opacity: 50%;
+}
